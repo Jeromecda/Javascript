@@ -1,0 +1,38 @@
+/* Sélecteur de balise/type/tag */
+h1 {
+    color: red;
+}
+/* Sélecteur de classe */
+.police {
+    font-size: 50px;
+}
+/* Sélecteur id */
+#titreVert {
+    color: green;
+}
+/* Sélecteur de liste (s'applique à tous les éléments) */
+p, section {
+    font-size: 30px;
+}
+/* Sélecteur éléments descendants */
+section h3 {
+    color: blueviolet;
+}
+
+/* Sélecteur d'enfants (direct) */
+span  {
+    background-color: yellow;
+}
+/* Enfant direct uniquement */
+div > span {
+    background-color: aqua;
+}
+/* Tous les enfants */
+div span {
+    background-color: orange;
+}
+
+/* Sélecteur éléments adjacents (le paragraphe qui suit directement l'article) */
+article + p {
+    background-color: crimson;
+}
